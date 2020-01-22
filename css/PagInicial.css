@@ -1,0 +1,52 @@
+body{
+    font-family: 'Segoe UI';
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#ContactMarc{
+    position: absolute;
+    width: 100%;
+    height:5%;
+    top:0%;
+    left: 0%;
+    background-color: #00AFF2;
+    color: white;
+}
+
+#slider{
+    position: absolute;
+    top:15%;
+    left: 0%;
+    height: 75%;
+    width: 100%;
+    
+}
+#banner{
+    position: absolute;
+    width: 40%;
+    height: 10%;
+    left: 27.5%;
+    top:50%;
+    background-color: #00AFF2;
+    color: white;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.btnUP{
+    position: fixed;
+    width: 3%;
+    height: 6%;
+    left: 96.5%;
+    top:93%;
+    background-color: black;
+    color: white;
+    z-index: 1;
+    border: none;
+}
