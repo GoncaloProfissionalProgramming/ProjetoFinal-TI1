@@ -1,13 +1,13 @@
 <html>
     <head>
-        <title>Página Inicial</title>
+        <title>Batista Russo-Comércio de Peças Automóveis</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/PagInicial.css">
         <link rel="stylesheet" href="css/navbar.css">
     </head>
     <body>
-        <div id="ContactMarc">
+        <div id="Header">
             <p style="position:absolute;margin-left:3%;">Contacto: 917896543</p>
             <p style="text-align:right;margin-right:3%;">Marcação para Montagem de Peças</p>
         </div>
@@ -33,14 +33,82 @@
               <a href="CarrinhoCompras">Carrinho de Compras</a>
             </div>
         </div>
+
         <div id="slider">
-            <img src="background.jpg" style="width:100%; height: 114%;">
+            <img src="img/background.jpg" style="width:100%; height: 114%;">
             <div id="banner">
                 <p style="margin-top:2.5%;">Temos as peças que você precisa!</p>
             </div>
         </div>
         
-        <button class="btnUP"><a href="#ContactMarc">UP</button></a> 
-        
+        <button class="btnUP"><a href="#Header">MENU</button></a> 
+        <div id="Promocoes">
+          <p style="text-align: center; font-size: 24px;margin-top: 2%;">Produtos em Promoção:</p>
+          <div id="SliderProdutos">
+            <div id="ImageProdSlider">
+              <img src="img/bilstein.png" style="width:100%; height: 100%;">
+              <p style="text-align: center;">Bilstein B14 Kit de Suspensão</p >
+              <p style="text-align: center;"><code style="color: #00AFF2; font-family: 'Segoe UI';">Preço: </code >940.38€</p >
+              <button class="VerMais">VER MAIS</button> 
+            </div>
+            <div id="ImageProdSlider" style="left: 14.2%;">
+              <img src="img/ATEPowerDisc.png" style="width:100%; height: 100%;">
+              <p style="text-align: center;">ATE PowerDisc Disco de Travão</p >
+              <p style="text-align: center;"><code style="color: #00AFF2; font-family: 'Segoe UI';">Preço: </code > 34.03€</p >
+              <button class="VerMais">VER MAIS</button> 
+            </div>
+            <div id="ImageProdSlider" style="left: 28.4%;">
+              <img src="img/ridexTravão.jpg" style="width:100%; height: 100%;">
+              <p style="text-align: center;">RIDEX Jogo de Pastilhas de Travão</p >
+              <p style="text-align: center;"><code style="color: #00AFF2; font-family: 'Segoe UI';">Preço: </code > 12.08€</p >
+              <button class="VerMais">VER MAIS</button> 
+            </div>
+            <div id="ImageProdSlider" style="left: 42.6%;">
+              <img src="img/boschFiltro.png" style="width:100%; height: 100%;">
+              <p style="text-align: center;">Bosch <br>Filtro de Óleo</p >
+              <p style="text-align: center;"><code style="color: #00AFF2; font-family: 'Segoe UI';">Preço: </code >5.51€</p>
+              <button class="VerMais">VER MAIS</button> 
+            </div>
+            <div id="ImageProdSlider" style="left: 56.8%;">
+              <img src="img/VALEOPastilhas.png" style="width:100%; height: 100%;">
+              <p style="text-align: center;">VALEO Jogo de Pastilhas de Travão</p >
+              <p style="text-align: center;"><code style="color: #00AFF2; font-family: 'Segoe UI';">Preço: </code > 44.89€</p >
+              <button class="VerMais">VER MAIS</button> 
+            </div>
+            <div id="ImageProdSlider" style="left: 71%;">
+              <img src="img/ridexMola.jpg" style="width:100%; height: 100%;">
+              <p style="text-align: center;">RIDEX <br>Mola de Suspensão</p >
+              <p style="text-align: center;"><code style="color: #00AFF2; font-family: 'Segoe UI';">Preço: </code > 19.98€</p >
+              <button class="VerMais">VER MAIS</button> 
+            </div>
+            <div id="ImageProdSlider" style="left: 85.2%;">
+              <img src="img/ABSPastilhas.jpg" style="width:100%; height: 100%;">
+              <p style="text-align: center;">A.B.S <br> Jogo de Pastilhas</p >
+              <p style="text-align: center;"><code style="color: #00AFF2; font-family: 'Segoe UI';">Preço: </code >12.83€</p >
+              <button class="VerMais">VER MAIS</button> 
+            </div>
+            
+          </div>
+        </div>
+        <div id="Contactos">
+          <p style="text-align: center; font-size: 24px;margin-top: 2%; color: white;">Contacte-nos!</p>
+          <form>
+            <p style="color: white; left: 20%; position: absolute;">Nome:</p>
+            <input id="NomeTxt" type="text" name="Nome" value="">
+            <p style="color: white; left: 50%; position: absolute;">Email:</p>
+            <input id="EmailTxt" type="text" name="Email" value="">
+            <p style="color: white; left: 19.2%; top: 28%; position: absolute;">Assunto:</p>
+            <input id="AssuntoTxt" type="text" name="Email" value="">
+            <p style="color: white; left: 18%; top: 45%; position: absolute;">Mensagem:</p>
+            <input id="MessageTxt" type="text" name="Email" value="">
+            
+            <input class="EnviarContacto" type="submit" value="Enviar" style="color: black; font-size: 22px;">
+          </form>
+        </div>
+        <div id="Footer">
+          <p style="position:absolute;margin-left:3%;">Batista Russo- Comércio de Peças Automóveis.Lda</p>
+          <img src="img/iconFB.png" style="width:2%; height: 80%; left: 94%; margin-top: 0.25%; position: absolute;">
+          <img src="img/iconInsta.png" style="width:2%; height: 80%; left: 91%; margin-top: 0.25%; position: absolute;">
+        </div>
     </body>
 </html>

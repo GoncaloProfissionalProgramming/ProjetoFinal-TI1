@@ -8,7 +8,7 @@ a{
     color: white;
 }
 
-#ContactMarc{
+#Header{
     position: absolute;
     width: 100%;
     height:5%;
@@ -49,4 +49,105 @@ a{
     color: white;
     z-index: 1;
     border: none;
+}
+
+#Promocoes{
+    position: absolute;
+    width: 100%;
+    height:60%;
+    left: 0%;
+    top:100%;
+    
+}
+
+
+#SliderProdutos{
+    position: absolute;
+    width: 78%;
+    height: 57%;
+    left:11%;
+    top:20%;
+    
+    
+}
+
+#ImageProdSlider{
+    position: absolute;
+    width:12%;
+    height: 60%;
+    top:0%;
+    border: #00AFF2 1px solid;
+}
+
+.VerMais{
+    position: absolute;
+    width:100%;
+    height: 15%;
+    background-color: #00AFF2;
+    border:none;
+    color: white;
+    
+}
+
+#Contactos{
+    position: absolute;
+    width: 100%;
+    height:60%;
+    left: 0%;
+    top:155%;
+    background-color: #00AFF2;
+}
+
+#NomeTxt{
+    position: absolute;
+    width: 26%;
+    height: 5%;
+    left: 23%;
+    top:17.5%
+}
+
+#EmailTxt{
+    position: absolute;
+    width: 20%;
+    height: 5%;
+    left: 53%;
+    top:17.5%
+}
+
+#AssuntoTxt{
+    position: absolute;
+    width: 50%;
+    height: 5%;
+    left: 23%;
+    top:30%
+}
+
+#MessageTxt{
+    position: absolute;
+    width: 50%;
+    height: 15%;
+    left: 23%;
+    top:42.5%
+}
+
+.EnviarContacto{
+    position: absolute;
+    width:20%;
+    height: 10%;
+    left: 40%;
+    top:65%;
+    background-color: white;
+    border:none;
+    border-radius: 40px;
+    color: white;
+}
+
+#Footer{
+    position: absolute;
+    width: 100%;
+    height:5.5%;
+    top:212%;
+    left: 0%;
+    background-color:black;
+    color: white;
 }
