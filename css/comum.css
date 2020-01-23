@@ -1,0 +1,28 @@
+body{
+    font-family: 'Segoe UI';
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#Header{
+    position: absolute;
+    width: 100%;
+    height:5%;
+    top:0%;
+    left: 0%;
+    background-color: #00AFF2;
+    color: white;
+}
+
+#Footer{
+    position: absolute;
+    width: 100%;
+    height:5.5%;
+    left: 0%;
+    background-color:black;
+    color: white;
+}
